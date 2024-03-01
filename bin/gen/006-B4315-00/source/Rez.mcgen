@@ -21,13 +21,13 @@ module Rez {
 
     module Layouts {
         function MainLayout(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_9471682161 = new WatchUi.Text({:color=>Graphics.COLOR_BLUE, :locX=>(454 * 0.5), :locY=>(454 * (20 / 100.0)), :text=>$.Rez.Strings.AppName, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
+            var rez_cmp_local_text_1252912498 = new WatchUi.Text({:color=>Graphics.COLOR_BLUE, :locX=>(454 * 0.5), :locY=>(454 * (20 / 100.0)), :text=>$.Rez.Strings.AppName, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_SMALL});
 
-            var rez_cmp_local_text_1867352010 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(454 * 0.5), :locY=>(454 * (40 / 100.0)), :text=>$.Rez.Strings.HomeTitle, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
+            var rez_cmp_local_text_2072123958 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(454 * 0.5), :locY=>(454 * (40 / 100.0)), :text=>$.Rez.Strings.HomeTitle, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_MEDIUM});
 
-            var rez_cmp_local_text_1033890177 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(454 * 0.5), :locY=>(454 * (60 / 100.0)), :text=>$.Rez.Strings.Prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_7184918315 = new WatchUi.Text({:color=>Graphics.COLOR_WHITE, :locX=>(454 * 0.5), :locY=>(454 * (60 / 100.0)), :text=>$.Rez.Strings.Prompt, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_text_9471682161, rez_cmp_local_text_1867352010, rez_cmp_local_text_1033890177] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_1252912498, rez_cmp_local_text_2072123958, rez_cmp_local_text_7184918315] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

@@ -51,7 +51,7 @@ module Rez {
 E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_start:
 [ "E:\garmin\dev\faces\MyCustomMenu\bin\gen\006-B4315-00\source\Rez.mcgen" 24 12 ]
             [ "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_start" "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_stop" ]
-            %rez_cmp_local_text_9471682161.1 = local;
+            %rez_cmp_local_text_1252912498.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
@@ -92,10 +92,10 @@ E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_star
             %tmp.46 = dup %tmp.41;
             %tmp.47 = aputv %tmp.46 %tmp.43 %tmp.45;
             %tmp.1 = newc %tmp.4 (%tmp.47);
-            lputv %rez_cmp_local_text_9471682161.1 %tmp.1;
+            lputv %rez_cmp_local_text_1252912498.1 %tmp.1;
 [ "E:\garmin\dev\faces\MyCustomMenu\bin\gen\006-B4315-00\source\Rez.mcgen" 26 12 ]
             [ "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_start" "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_stop" ]
-            %rez_cmp_local_text_1867352010.2 = local;
+            %rez_cmp_local_text_2072123958.2 = local;
             %tmp.50 = getm $.Toybox.WatchUi;
             %tmp.51 = getv function ? %tmp.50 :Text;
             %tmp.52 = newd 6;
@@ -136,10 +136,10 @@ E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_star
             %tmp.93 = dup %tmp.88;
             %tmp.94 = aputv %tmp.93 %tmp.90 %tmp.92;
             %tmp.48 = newc %tmp.51 (%tmp.94);
-            lputv %rez_cmp_local_text_1867352010.2 %tmp.48;
+            lputv %rez_cmp_local_text_2072123958.2 %tmp.48;
 [ "E:\garmin\dev\faces\MyCustomMenu\bin\gen\006-B4315-00\source\Rez.mcgen" 28 12 ]
             [ "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_start" "E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_stop" ]
-            %rez_cmp_local_text_1033890177.3 = local;
+            %rez_cmp_local_text_7184918315.3 = local;
             %tmp.97 = getm $.Toybox.WatchUi;
             %tmp.98 = getv function ? %tmp.97 :Text;
             %tmp.99 = newd 6;
@@ -180,16 +180,16 @@ E_garmin_dev_faces_MyCustomMenu_bin_gen_006_B4315_00_source_Rez_mcgen_23_74_star
             %tmp.140 = dup %tmp.135;
             %tmp.141 = aputv %tmp.140 %tmp.137 %tmp.139;
             %tmp.95 = newc %tmp.98 (%tmp.141);
-            lputv %rez_cmp_local_text_1033890177.3 %tmp.95;
+            lputv %rez_cmp_local_text_7184918315.3 %tmp.95;
 [ "E:\garmin\dev\faces\MyCustomMenu\bin\gen\006-B4315-00\source\Rez.mcgen" 30 12 ]
             %tmp.142 = newa Array<WatchUi.Drawable> 3;
-            %tmp.144 = lgetv %rez_cmp_local_text_9471682161.1;
+            %tmp.144 = lgetv %rez_cmp_local_text_1252912498.1;
             %tmp.145 = dup %tmp.142;
             %tmp.146 = aputv %tmp.145 0 %tmp.144;
-            %tmp.148 = lgetv %rez_cmp_local_text_1867352010.2;
+            %tmp.148 = lgetv %rez_cmp_local_text_2072123958.2;
             %tmp.149 = dup %tmp.146;
             %tmp.150 = aputv %tmp.149 1 %tmp.148;
-            %tmp.152 = lgetv %rez_cmp_local_text_1033890177.3;
+            %tmp.152 = lgetv %rez_cmp_local_text_7184918315.3;
             %tmp.153 = dup %tmp.150;
             %tmp.154 = aputv %tmp.153 2 %tmp.152;
             ret %tmp.154;

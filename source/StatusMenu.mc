@@ -17,6 +17,7 @@ class StatusMenu extends WatchUi.CustomMenu {
     //! Constructor
     //! @param itemHeight The pixel height of menu items rendered by this menu
     //! @param backgroundColor The color for the menu background
+    //! @param options A Dictionary with options for the CustomMenu object
     public function initialize() {
         var itemHeight = System.getDeviceSettings().screenHeight/5;
 
@@ -71,6 +72,7 @@ class StatusMenuDelegate extends WatchUi.Menu2InputDelegate {
 //! It draws the item's bitmap and label.
 class StatusMenuItem extends WatchUi.CustomMenuItem {
 
+    //a default icon if the status is unknown
     var defaultIcon  = WatchUi.loadResource($.Rez.Drawables.heartWhite);
 
     private var _label as String;
@@ -82,7 +84,6 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
     //! Constructor
     //! @param id The identifier for this item
     //! @param label Text to display
-    //! @param bitmap Color of the text
     public function initialize(id as Symbol, label as String) {
         CustomMenuItem.initialize(id, {});
         _label = label;
@@ -96,38 +97,61 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
     //! @param dc Device context
     public function draw(dc as Dc) as Void {
 
-        dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+        var marginX = 10;
 
+        //when item is in focus, display the corresponding Icon and Device Status, otherwise just display the Label
         if (isFocused()) {
+            //get the device status array [value, icon]
             _status = getDeviceStatus();
+
+            //make label a bit bigger while in focus
             _fontLabel = Graphics.FONT_TINY as FontReference;
 
+            //create a semi-transparent box around the focus item and a vertical slanted line since we removed the default theme
+            dc.setFill(Graphics.createColor(100, 0, 100, 100));
+            dc.fillRectangle(0, 0, dc.getWidth(), dc.getHeight());
+            dc.setColor(Graphics.createColor(255, 0, 100, 100), Graphics.COLOR_TRANSPARENT);
+            dc.setPenWidth(3);
+            dc.drawLine(0, dc.getHeight(), 5, 0);
+
+            //set color back to white to draw labels
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
+
             if(_status[0] == null ) {
-                dc.drawText(0, dc.getHeight()/2, _fontLabel, "?", Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
+                //draw default white icon if we cannot get a valid status
+                dc.drawBitmap(marginX, _status[1].getHeight()/2, _status[1]);
+                //draw device label
+                dc.drawText(marginX + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
+                //draw a status unknown sublabel
+                dc.drawText(marginX + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, "Status: Unknown", Graphics.TEXT_JUSTIFY_LEFT);
             } else {
-                dc.drawBitmap(0, _status[1].getHeight()/2, _status[1]);
-                dc.drawText(0 + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
-                dc.drawText(0 + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, "Status: " + _status[0], Graphics.TEXT_JUSTIFY_LEFT);
+                //draw the corresponding icon (red, yellow, green)
+                dc.drawBitmap(marginX, _status[1].getHeight()/2, _status[1]);
+                //draw device label
+                dc.drawText(marginX + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
+                //draw the device status value between 1-100
+                dc.drawText(marginX + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, "Status: " + _status[0], Graphics.TEXT_JUSTIFY_LEFT);
             } 
             
         } else {
+            //if device is not in focus, only draw the label and make it smaller than the focus item
+            dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
             _fontLabel = Graphics.FONT_XTINY as FontReference;
-            dc.drawText(0 + _icon.getWidth() + 5, dc.getHeight()/2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
+            dc.drawText(marginX + _icon.getWidth() + 5, dc.getHeight()/2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT|Graphics.TEXT_JUSTIFY_VCENTER);
 
         }
 
+        //if the item is selected, draw it accordingly... maybe a different colored semi-transparent box? 
+        //left it unchanged from the Menu2Sample code
         if (isSelected()) {
             dc.setColor(Graphics.COLOR_BLUE, Graphics.COLOR_BLUE);
             dc.clear();
         }
 
-        
-        dc.setColor(Graphics.COLOR_DK_GRAY, Graphics.COLOR_DK_GRAY);
-        dc.setPenWidth(3);
-        dc.drawLine(0, dc.getHeight() - 2, dc.getWidth(), dc.getHeight() - 2);
     }
 }
 
+//dummy Device Status function that returns a random number between 1-100 and the corresponding icon in an Array
 public function getDeviceStatus() as Array {
     var statusValue = 100 + Math.rand() / ((0x7FFFFFFF).toFloat() / (0 - 100 + 1) + 1).toNumber();
     var statusIcon = statusValue < 34 ? WatchUi.loadResource($.Rez.Drawables.heartRed) : 

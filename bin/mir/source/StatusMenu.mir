@@ -20,12 +20,13 @@ class StatusMenu extends WatchUi.CustomMenu{
     //! Constructor
     //! @param itemHeight The pixel height of menu items rendered by this menu
     //! @param backgroundColor The color for the menu background
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 20; ]
+    //! @param options A Dictionary with options for the CustomMenu object
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 21; ]
     public
     function initialize() as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 21 8 ]
-        [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_stop" ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 22 8 ]
+        [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_stop" ]
         %itemHeight.1 = local;
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :getDeviceSettings;
@@ -34,8 +35,8 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.5 = 5;
         %tmp.6 = div %tmp.4 %tmp.5;
         lputv %itemHeight.1 %tmp.6;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 23 8 ]
-        [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_stop" ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 24 8 ]
+        [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_stop" ]
         %options.2 = local;
         %tmp.7 = newd 3;
         %tmp.9 = const :theme;
@@ -55,7 +56,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.27 = dup %tmp.18;
         %tmp.28 = aputv %tmp.27 %tmp.20 %tmp.26;
         lputv %options.2 %tmp.28;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 29 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 30 8 ]
         %tmp.30 = getv ? :CustomMenu;
         %tmp.31 = getv function %tmp.30 :initialize;
         %tmp.33 = lgetv %itemHeight.1;
@@ -63,7 +64,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.35 = getv %tmp.34 :COLOR_BLACK;
         %tmp.37 = lgetv %options.2;
         invoke %tmp.30 %tmp.31(%tmp.33, %tmp.35, %tmp.37);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 31 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 32 8 ]
         %tmp.38 = self;
         %tmp.39 = getv function %tmp.38 :addItem;
         %tmp.43 = getv ? :StatusMenuItem;
@@ -71,7 +72,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.46 = "Device 1";
         %tmp.40 = newc %tmp.43 (%tmp.45, %tmp.46);
         invoke %tmp.38 %tmp.39(%tmp.40);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 32 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 33 8 ]
         %tmp.47 = self;
         %tmp.48 = getv function %tmp.47 :addItem;
         %tmp.52 = getv ? :StatusMenuItem;
@@ -79,7 +80,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.55 = "Device 2";
         %tmp.49 = newc %tmp.52 (%tmp.54, %tmp.55);
         invoke %tmp.47 %tmp.48(%tmp.49);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 33 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 34 8 ]
         %tmp.56 = self;
         %tmp.57 = getv function %tmp.56 :addItem;
         %tmp.61 = getv ? :StatusMenuItem;
@@ -87,7 +88,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.64 = "Device 3";
         %tmp.58 = newc %tmp.61 (%tmp.63, %tmp.64);
         invoke %tmp.56 %tmp.57(%tmp.58);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 34 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 35 8 ]
         %tmp.65 = self;
         %tmp.66 = getv function %tmp.65 :addItem;
         %tmp.70 = getv ? :StatusMenuItem;
@@ -95,7 +96,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.73 = "Device 4";
         %tmp.67 = newc %tmp.70 (%tmp.72, %tmp.73);
         invoke %tmp.65 %tmp.66(%tmp.67);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 35 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 36 8 ]
         %tmp.74 = self;
         %tmp.75 = getv function %tmp.74 :addItem;
         %tmp.79 = getv ? :StatusMenuItem;
@@ -103,15 +104,15 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_start:
         %tmp.82 = "Device 5";
         %tmp.76 = newc %tmp.79 (%tmp.81, %tmp.82);
         invoke %tmp.74 %tmp.75(%tmp.76);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_20_33_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_21_33_stop:
     }
     //! Draw the menu title
     //! @param dc Device Context
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 40; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 41; ]
     public
     function drawTitle(dc as Dc) as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 41 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_41_48_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 42 8 ]
         %tmp.1 = lgetv %dc;
         %tmp.2 = getv function %tmp.1 :setColor;
         %tmp.3 = getm $.Toybox.Graphics;
@@ -119,12 +120,12 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_start:
         %tmp.5 = getm $.Toybox.Graphics;
         %tmp.6 = getv %tmp.5 :COLOR_DK_GRAY;
         invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 42 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 43 8 ]
         %tmp.7 = lgetv %dc;
         %tmp.8 = getv function %tmp.7 :setPenWidth;
         %tmp.9 = 3;
         invoke %tmp.7 %tmp.8(%tmp.9);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 43 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 44 8 ]
         %tmp.10 = lgetv %dc;
         %tmp.11 = getv function %tmp.10 :drawLine;
         %tmp.12 = 0;
@@ -142,12 +143,12 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_start:
         %tmp.24 = 2;
         %tmp.25 = sub %tmp.23 %tmp.24;
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.17, %tmp.20, %tmp.25);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 44 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 45 8 ]
         %tmp.26 = lgetv %dc;
         %tmp.27 = getv function %tmp.26 :setPenWidth;
         %tmp.28 = 1;
         invoke %tmp.26 %tmp.27(%tmp.28);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 45 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 46 8 ]
         %tmp.29 = lgetv %dc;
         %tmp.30 = getv function %tmp.29 :setColor;
         %tmp.31 = getm $.Toybox.Graphics;
@@ -155,7 +156,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_start:
         %tmp.33 = getm $.Toybox.Graphics;
         %tmp.34 = getv %tmp.33 :COLOR_TRANSPARENT;
         invoke %tmp.29 %tmp.30(%tmp.32, %tmp.34);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 46 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 47 8 ]
         %tmp.35 = lgetv %dc;
         %tmp.36 = getv function %tmp.35 :drawText;
         %tmp.37 = lgetv %dc;
@@ -177,60 +178,60 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_start:
         %tmp.53 = getv %tmp.52 :TEXT_JUSTIFY_VCENTER;
         %tmp.54 = bitor %tmp.51 %tmp.53;
         invoke %tmp.35 %tmp.36(%tmp.41, %tmp.46, %tmp.48, %tmp.49, %tmp.54);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_40_48_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_41_48_stop:
     }
 }
-[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 51; ]
+[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 52; ]
 class StatusMenuDelegate extends WatchUi.Menu2InputDelegate{
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 51; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 52; ]
     <init> {
     }
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 51; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 52; ]
     static
     <init> {
     }
     //! Constructor
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 54; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 55; ]
     public
     function initialize() as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_54_33_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 55 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_55_33_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 56 8 ]
         %tmp.2 = getv ? :Menu2InputDelegate;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_54_33_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_55_33_stop:
     }
     //! Handle an item being selected
     //! @param item The selected menu item
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 60; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 61; ]
     public
     function onSelect(item as MenuItem) as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_60_55_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 61 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_61_55_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 62 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :requestUpdate;
         invoke %tmp.1 %tmp.2();
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_60_55_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_61_55_stop:
     }
     //! Handle the back key being pressed
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 65; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 66; ]
     public
     function onBack() as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_65_37_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 66 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_66_37_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 67 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :popView;
         %tmp.3 = getm $.Toybox.WatchUi;
         %tmp.4 = getv %tmp.3 :SLIDE_DOWN;
         invoke %tmp.1 %tmp.2(%tmp.4);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_65_37_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_66_37_stop:
     }
 }
-[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 72; ]
+[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 73; ]
 class StatusMenuItem extends WatchUi.CustomMenuItem{
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 72; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 73; ]
     <init> {
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 74 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 76 8 ]
         %tmp.5 = getm $.Toybox.WatchUi;
         %tmp.6 = getv function %tmp.5 :loadResource;
         %tmp.7 = getm $;
@@ -240,58 +241,57 @@ class StatusMenuItem extends WatchUi.CustomMenuItem{
         %tmp.11 = invoke %tmp.5 %tmp.6(%tmp.10);
         putv self :defaultIcon %tmp.11;
     }
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 72; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 73; ]
     static
     <init> {
     }
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 74; @position = 8; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 76; @position = 8; ]
     var defaultIcon;
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 76; @position = 16; ]
-    private
-    var _label as String;
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 77; @position = 16; ]
-    private
-    var _icon as BitmapReference;
     [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 78; @position = 16; ]
     private
-    var _fontLabel as FontReference;
+    var _label as String;
     [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 79; @position = 16; ]
     private
-    var _fontSubLabel as FontReference;
+    var _icon as BitmapReference;
     [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 80; @position = 16; ]
+    private
+    var _fontLabel as FontReference;
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 81; @position = 16; ]
+    private
+    var _fontSubLabel as FontReference;
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 82; @position = 16; ]
     private
     var _status as Array<Number or BitmapReference>;
     //! Constructor
     //! @param id The identifier for this item
     //! @param label Text to display
-    //! @param bitmap Color of the text
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 86; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 87; ]
     public
     function initialize(id as Symbol, label as String) as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_86_62_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 87 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_87_62_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 88 8 ]
         %tmp.2 = getv ? :CustomMenuItem;
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.5 = lgetv %id;
         %tmp.6 = newd 0;
         invoke %tmp.2 %tmp.3(%tmp.5, %tmp.6);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 88 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 89 8 ]
         %tmp.8 = lgetv %label;
         putv self :_label %tmp.8;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 89 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 90 8 ]
         %tmp.10 = getv ? :defaultIcon;
         putv self :_icon %tmp.10;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 90 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 91 8 ]
         %tmp.11 = getm $.Toybox.Graphics;
         %tmp.12 = getv %tmp.11 :FONT_XTINY;
         %tmp.13 = as %tmp.12 FontReference;
         putv self :_fontLabel %tmp.13;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 91 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 92 8 ]
         %tmp.14 = getm $.Toybox.Graphics;
         %tmp.15 = getv %tmp.14 :FONT_XTINY;
         %tmp.16 = as %tmp.15 FontReference;
         putv self :_fontSubLabel %tmp.16;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 92 8 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 93 8 ]
         %tmp.17 = newa 2;
         %tmp.18 = null;
         %tmp.19 = as %tmp.18 Number;
@@ -307,231 +307,305 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_86_62_start:
         %tmp.29 = dup %tmp.21;
         %tmp.30 = aputv %tmp.29 1 %tmp.28;
         putv self :_status %tmp.30;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_86_62_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_87_62_stop:
     }
     //! Draw the item's label and bitmap
     //! @param dc Device context
-    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 97; ]
+    [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 98; ]
     public
     function draw(dc as Dc) as Void {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_97_43_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 99 8 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :setColor;
-        %tmp.3 = getm $.Toybox.Graphics;
-        %tmp.4 = getv %tmp.3 :COLOR_WHITE;
-        %tmp.5 = getm $.Toybox.Graphics;
-        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
-        invoke %tmp.1 %tmp.2(%tmp.4, %tmp.6);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 101 8 ]
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_stmt:
-        %tmp.7 = self;
-        %tmp.8 = getv function %tmp.7 :isFocused;
-        %tmp.9 = invoke %tmp.7 %tmp.8();
-        bf %tmp.9 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_false;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_true:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_25_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 102 12 ]
-        %tmp.10 = self;
-        %tmp.11 = getv function %tmp.10 :getDeviceStatus;
-        %tmp.12 = invoke %tmp.10 %tmp.11();
-        putv self :_status %tmp.12;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 103 12 ]
-        %tmp.13 = getm $.Toybox.Graphics;
-        %tmp.14 = getv %tmp.13 :FONT_TINY;
-        %tmp.15 = as %tmp.14 FontReference;
-        putv self :_fontLabel %tmp.15;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_98_43_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 100 8 ]
+        [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_98_43_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_98_43_stop" ]
+        %marginX.1 = local;
+        %tmp.1 = 10;
+        lputv %marginX.1 %tmp.1;
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 103 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_stmt:
+        %tmp.2 = self;
+        %tmp.3 = getv function %tmp.2 :isFocused;
+        %tmp.4 = invoke %tmp.2 %tmp.3();
+        bf %tmp.4 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_false;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_true:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_25_start:
 [ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 105 12 ]
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_stmt:
-        %tmp.17 = getv ? :_status;
-        %tmp.18 = 0;
-        %tmp.19 = agetv %tmp.17 %tmp.18;
-        %tmp.20 = null;
-        %tmp.21 = eq %tmp.19 %tmp.20;
-        bf %tmp.21 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_false;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_true:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_36_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 106 16 ]
-        %tmp.22 = lgetv %dc;
-        %tmp.23 = getv function %tmp.22 :drawText;
-        %tmp.24 = 0;
-        %tmp.25 = lgetv %dc;
-        %tmp.26 = getv function %tmp.25 :getHeight;
-        %tmp.27 = invoke %tmp.25 %tmp.26();
-        %tmp.28 = 2;
-        %tmp.29 = div %tmp.27 %tmp.28;
-        %tmp.31 = getv ? :_fontLabel;
-        %tmp.32 = "?";
-        %tmp.33 = getm $.Toybox.Graphics;
-        %tmp.34 = getv %tmp.33 :TEXT_JUSTIFY_CENTER;
-        %tmp.35 = getm $.Toybox.Graphics;
-        %tmp.36 = getv %tmp.35 :TEXT_JUSTIFY_VCENTER;
-        %tmp.37 = bitor %tmp.34 %tmp.36;
-        invoke %tmp.22 %tmp.23(%tmp.24, %tmp.29, %tmp.31, %tmp.32, %tmp.37);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_36_stop:
-        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_false:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_107_19_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 108 16 ]
-        %tmp.38 = lgetv %dc;
-        %tmp.39 = getv function %tmp.38 :drawBitmap;
-        %tmp.40 = 0;
-        %tmp.42 = getv ? :_status;
-        %tmp.43 = 1;
-        %tmp.44 = agetv %tmp.42 %tmp.43;
-        %tmp.45 = getv function %tmp.44 :getHeight;
-        %tmp.46 = invoke %tmp.44 %tmp.45();
-        %tmp.47 = 2;
-        %tmp.48 = div %tmp.46 %tmp.47;
-        %tmp.50 = getv ? :_status;
-        %tmp.51 = 1;
-        %tmp.52 = agetv %tmp.50 %tmp.51;
-        invoke %tmp.38 %tmp.39(%tmp.40, %tmp.48, %tmp.52);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 109 16 ]
-        %tmp.53 = lgetv %dc;
-        %tmp.54 = getv function %tmp.53 :drawText;
-        %tmp.55 = 0;
-        %tmp.57 = getv ? :_status;
-        %tmp.58 = 1;
-        %tmp.59 = agetv %tmp.57 %tmp.58;
-        %tmp.60 = getv function %tmp.59 :getWidth;
-        %tmp.61 = invoke %tmp.59 %tmp.60();
-        %tmp.62 = add %tmp.55 %tmp.61;
-        %tmp.63 = 5;
-        %tmp.64 = add %tmp.62 %tmp.63;
-        %tmp.65 = 2;
-        %tmp.67 = getv ? :_fontLabel;
-        %tmp.69 = getv ? :_label;
-        %tmp.70 = getm $.Toybox.Graphics;
-        %tmp.71 = getv %tmp.70 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.53 %tmp.54(%tmp.64, %tmp.65, %tmp.67, %tmp.69, %tmp.71);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 110 16 ]
-        %tmp.72 = lgetv %dc;
-        %tmp.73 = getv function %tmp.72 :drawText;
-        %tmp.74 = 0;
-        %tmp.76 = getv ? :_status;
-        %tmp.77 = 1;
-        %tmp.78 = agetv %tmp.76 %tmp.77;
-        %tmp.79 = getv function %tmp.78 :getWidth;
-        %tmp.80 = invoke %tmp.78 %tmp.79();
-        %tmp.81 = add %tmp.74 %tmp.80;
-        %tmp.82 = 5;
-        %tmp.83 = add %tmp.81 %tmp.82;
-        %tmp.84 = lgetv %dc;
-        %tmp.85 = getv function %tmp.84 :getHeight;
-        %tmp.86 = invoke %tmp.84 %tmp.85();
-        %tmp.87 = lgetv %dc;
-        %tmp.88 = getv function %tmp.87 :getFontHeight;
-        %tmp.90 = getv ? :_fontSubLabel;
-        %tmp.91 = invoke %tmp.87 %tmp.88(%tmp.90);
-        %tmp.92 = sub %tmp.86 %tmp.91;
-        %tmp.94 = getv ? :_fontSubLabel;
-        %tmp.95 = "Status: ";
-        %tmp.97 = getv ? :_status;
-        %tmp.98 = 0;
-        %tmp.99 = agetv %tmp.97 %tmp.98;
-        %tmp.100 = add %tmp.95 %tmp.99;
-        %tmp.101 = getm $.Toybox.Graphics;
-        %tmp.102 = getv %tmp.101 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.72 %tmp.73(%tmp.83, %tmp.92, %tmp.94, %tmp.100, %tmp.102);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_107_19_stop:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_105_12_if_end:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_25_stop:
-        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_false:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_113_15_start:
+        %tmp.5 = self;
+        %tmp.6 = getv function %tmp.5 :getDeviceStatus;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        putv self :_status %tmp.7;
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 108 12 ]
+        %tmp.8 = getm $.Toybox.Graphics;
+        %tmp.9 = getv %tmp.8 :FONT_TINY;
+        %tmp.10 = as %tmp.9 FontReference;
+        putv self :_fontLabel %tmp.10;
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 111 12 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :setFill;
+        %tmp.13 = getm $.Toybox.Graphics;
+        %tmp.14 = getv function %tmp.13 :createColor;
+        %tmp.15 = 100;
+        %tmp.16 = 0;
+        %tmp.17 = 100;
+        %tmp.18 = 100;
+        %tmp.19 = invoke %tmp.13 %tmp.14(%tmp.15, %tmp.16, %tmp.17, %tmp.18);
+        invoke %tmp.11 %tmp.12(%tmp.19);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 112 12 ]
+        %tmp.20 = lgetv %dc;
+        %tmp.21 = getv function %tmp.20 :fillRectangle;
+        %tmp.22 = 0;
+        %tmp.23 = 0;
+        %tmp.24 = lgetv %dc;
+        %tmp.25 = getv function %tmp.24 :getWidth;
+        %tmp.26 = invoke %tmp.24 %tmp.25();
+        %tmp.27 = lgetv %dc;
+        %tmp.28 = getv function %tmp.27 :getHeight;
+        %tmp.29 = invoke %tmp.27 %tmp.28();
+        invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23, %tmp.26, %tmp.29);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 113 12 ]
+        %tmp.30 = lgetv %dc;
+        %tmp.31 = getv function %tmp.30 :setColor;
+        %tmp.32 = getm $.Toybox.Graphics;
+        %tmp.33 = getv function %tmp.32 :createColor;
+        %tmp.34 = 255;
+        %tmp.35 = 0;
+        %tmp.36 = 100;
+        %tmp.37 = 100;
+        %tmp.38 = invoke %tmp.32 %tmp.33(%tmp.34, %tmp.35, %tmp.36, %tmp.37);
+        %tmp.39 = getm $.Toybox.Graphics;
+        %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+        invoke %tmp.30 %tmp.31(%tmp.38, %tmp.40);
 [ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 114 12 ]
-        %tmp.103 = getm $.Toybox.Graphics;
-        %tmp.104 = getv %tmp.103 :FONT_XTINY;
-        %tmp.105 = as %tmp.104 FontReference;
-        putv self :_fontLabel %tmp.105;
+        %tmp.41 = lgetv %dc;
+        %tmp.42 = getv function %tmp.41 :setPenWidth;
+        %tmp.43 = 3;
+        invoke %tmp.41 %tmp.42(%tmp.43);
 [ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 115 12 ]
-        %tmp.106 = lgetv %dc;
-        %tmp.107 = getv function %tmp.106 :drawText;
-        %tmp.108 = 0;
-        %tmp.110 = getv ? :_icon;
-        %tmp.111 = getv function %tmp.110 :getWidth;
-        %tmp.112 = invoke %tmp.110 %tmp.111();
-        %tmp.113 = add %tmp.108 %tmp.112;
-        %tmp.114 = 5;
-        %tmp.115 = add %tmp.113 %tmp.114;
+        %tmp.44 = lgetv %dc;
+        %tmp.45 = getv function %tmp.44 :drawLine;
+        %tmp.46 = 0;
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :getHeight;
+        %tmp.49 = invoke %tmp.47 %tmp.48();
+        %tmp.50 = 5;
+        %tmp.51 = 0;
+        invoke %tmp.44 %tmp.45(%tmp.46, %tmp.49, %tmp.50, %tmp.51);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 118 12 ]
+        %tmp.52 = lgetv %dc;
+        %tmp.53 = getv function %tmp.52 :setColor;
+        %tmp.54 = getm $.Toybox.Graphics;
+        %tmp.55 = getv %tmp.54 :COLOR_WHITE;
+        %tmp.56 = getm $.Toybox.Graphics;
+        %tmp.57 = getv %tmp.56 :COLOR_TRANSPARENT;
+        invoke %tmp.52 %tmp.53(%tmp.55, %tmp.57);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 120 12 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_stmt:
+        %tmp.59 = getv ? :_status;
+        %tmp.60 = 0;
+        %tmp.61 = agetv %tmp.59 %tmp.60;
+        %tmp.62 = null;
+        %tmp.63 = eq %tmp.61 %tmp.62;
+        bf %tmp.63 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_false;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_true:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_36_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 122 16 ]
+        %tmp.64 = lgetv %dc;
+        %tmp.65 = getv function %tmp.64 :drawBitmap;
+        %tmp.67 = lgetv %marginX.1;
+        %tmp.69 = getv ? :_status;
+        %tmp.70 = 1;
+        %tmp.71 = agetv %tmp.69 %tmp.70;
+        %tmp.72 = getv function %tmp.71 :getHeight;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        %tmp.74 = 2;
+        %tmp.75 = div %tmp.73 %tmp.74;
+        %tmp.77 = getv ? :_status;
+        %tmp.78 = 1;
+        %tmp.79 = agetv %tmp.77 %tmp.78;
+        invoke %tmp.64 %tmp.65(%tmp.67, %tmp.75, %tmp.79);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 124 16 ]
+        %tmp.80 = lgetv %dc;
+        %tmp.81 = getv function %tmp.80 :drawText;
+        %tmp.83 = lgetv %marginX.1;
+        %tmp.85 = getv ? :_status;
+        %tmp.86 = 1;
+        %tmp.87 = agetv %tmp.85 %tmp.86;
+        %tmp.88 = getv function %tmp.87 :getWidth;
+        %tmp.89 = invoke %tmp.87 %tmp.88();
+        %tmp.90 = add %tmp.83 %tmp.89;
+        %tmp.91 = 5;
+        %tmp.92 = add %tmp.90 %tmp.91;
+        %tmp.93 = 2;
+        %tmp.95 = getv ? :_fontLabel;
+        %tmp.97 = getv ? :_label;
+        %tmp.98 = getm $.Toybox.Graphics;
+        %tmp.99 = getv %tmp.98 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.80 %tmp.81(%tmp.92, %tmp.93, %tmp.95, %tmp.97, %tmp.99);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 126 16 ]
+        %tmp.100 = lgetv %dc;
+        %tmp.101 = getv function %tmp.100 :drawText;
+        %tmp.103 = lgetv %marginX.1;
+        %tmp.105 = getv ? :_status;
+        %tmp.106 = 1;
+        %tmp.107 = agetv %tmp.105 %tmp.106;
+        %tmp.108 = getv function %tmp.107 :getWidth;
+        %tmp.109 = invoke %tmp.107 %tmp.108();
+        %tmp.110 = add %tmp.103 %tmp.109;
+        %tmp.111 = 5;
+        %tmp.112 = add %tmp.110 %tmp.111;
+        %tmp.113 = lgetv %dc;
+        %tmp.114 = getv function %tmp.113 :getHeight;
+        %tmp.115 = invoke %tmp.113 %tmp.114();
         %tmp.116 = lgetv %dc;
-        %tmp.117 = getv function %tmp.116 :getHeight;
-        %tmp.118 = invoke %tmp.116 %tmp.117();
-        %tmp.119 = 2;
-        %tmp.120 = div %tmp.118 %tmp.119;
-        %tmp.122 = getv ? :_fontLabel;
-        %tmp.124 = getv ? :_label;
+        %tmp.117 = getv function %tmp.116 :getFontHeight;
+        %tmp.119 = getv ? :_fontSubLabel;
+        %tmp.120 = invoke %tmp.116 %tmp.117(%tmp.119);
+        %tmp.121 = sub %tmp.115 %tmp.120;
+        %tmp.123 = getv ? :_fontSubLabel;
+        %tmp.124 = "Status: Unknown";
         %tmp.125 = getm $.Toybox.Graphics;
         %tmp.126 = getv %tmp.125 :TEXT_JUSTIFY_LEFT;
-        %tmp.127 = getm $.Toybox.Graphics;
-        %tmp.128 = getv %tmp.127 :TEXT_JUSTIFY_VCENTER;
-        %tmp.129 = bitor %tmp.126 %tmp.128;
-        invoke %tmp.106 %tmp.107(%tmp.115, %tmp.120, %tmp.122, %tmp.124, %tmp.129);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_113_15_stop:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_101_8_if_end:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 119 8 ]
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_8_if_stmt:
-        %tmp.130 = self;
-        %tmp.131 = getv function %tmp.130 :isSelected;
-        %tmp.132 = invoke %tmp.130 %tmp.131();
-        bf %tmp.132 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_8_if_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_8_if_true:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_26_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 120 12 ]
-        %tmp.133 = lgetv %dc;
-        %tmp.134 = getv function %tmp.133 :setColor;
-        %tmp.135 = getm $.Toybox.Graphics;
-        %tmp.136 = getv %tmp.135 :COLOR_BLUE;
-        %tmp.137 = getm $.Toybox.Graphics;
-        %tmp.138 = getv %tmp.137 :COLOR_BLUE;
-        invoke %tmp.133 %tmp.134(%tmp.136, %tmp.138);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 121 12 ]
-        %tmp.139 = lgetv %dc;
-        %tmp.140 = getv function %tmp.139 :clear;
-        invoke %tmp.139 %tmp.140();
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_26_stop:
-        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_8_if_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_119_8_if_end:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 125 8 ]
-        %tmp.141 = lgetv %dc;
-        %tmp.142 = getv function %tmp.141 :setColor;
-        %tmp.143 = getm $.Toybox.Graphics;
-        %tmp.144 = getv %tmp.143 :COLOR_DK_GRAY;
-        %tmp.145 = getm $.Toybox.Graphics;
-        %tmp.146 = getv %tmp.145 :COLOR_DK_GRAY;
-        invoke %tmp.141 %tmp.142(%tmp.144, %tmp.146);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 126 8 ]
-        %tmp.147 = lgetv %dc;
-        %tmp.148 = getv function %tmp.147 :setPenWidth;
-        %tmp.149 = 3;
-        invoke %tmp.147 %tmp.148(%tmp.149);
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 127 8 ]
-        %tmp.150 = lgetv %dc;
-        %tmp.151 = getv function %tmp.150 :drawLine;
-        %tmp.152 = 0;
-        %tmp.153 = lgetv %dc;
-        %tmp.154 = getv function %tmp.153 :getHeight;
-        %tmp.155 = invoke %tmp.153 %tmp.154();
+        invoke %tmp.100 %tmp.101(%tmp.112, %tmp.121, %tmp.123, %tmp.124, %tmp.126);
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_36_stop:
+        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_false:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_127_19_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 129 16 ]
+        %tmp.127 = lgetv %dc;
+        %tmp.128 = getv function %tmp.127 :drawBitmap;
+        %tmp.130 = lgetv %marginX.1;
+        %tmp.132 = getv ? :_status;
+        %tmp.133 = 1;
+        %tmp.134 = agetv %tmp.132 %tmp.133;
+        %tmp.135 = getv function %tmp.134 :getHeight;
+        %tmp.136 = invoke %tmp.134 %tmp.135();
+        %tmp.137 = 2;
+        %tmp.138 = div %tmp.136 %tmp.137;
+        %tmp.140 = getv ? :_status;
+        %tmp.141 = 1;
+        %tmp.142 = agetv %tmp.140 %tmp.141;
+        invoke %tmp.127 %tmp.128(%tmp.130, %tmp.138, %tmp.142);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 131 16 ]
+        %tmp.143 = lgetv %dc;
+        %tmp.144 = getv function %tmp.143 :drawText;
+        %tmp.146 = lgetv %marginX.1;
+        %tmp.148 = getv ? :_status;
+        %tmp.149 = 1;
+        %tmp.150 = agetv %tmp.148 %tmp.149;
+        %tmp.151 = getv function %tmp.150 :getWidth;
+        %tmp.152 = invoke %tmp.150 %tmp.151();
+        %tmp.153 = add %tmp.146 %tmp.152;
+        %tmp.154 = 5;
+        %tmp.155 = add %tmp.153 %tmp.154;
         %tmp.156 = 2;
-        %tmp.157 = sub %tmp.155 %tmp.156;
-        %tmp.158 = lgetv %dc;
-        %tmp.159 = getv function %tmp.158 :getWidth;
-        %tmp.160 = invoke %tmp.158 %tmp.159();
-        %tmp.161 = lgetv %dc;
-        %tmp.162 = getv function %tmp.161 :getHeight;
-        %tmp.163 = invoke %tmp.161 %tmp.162();
-        %tmp.164 = 2;
-        %tmp.165 = sub %tmp.163 %tmp.164;
-        invoke %tmp.150 %tmp.151(%tmp.152, %tmp.157, %tmp.160, %tmp.165);
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_97_43_stop:
+        %tmp.158 = getv ? :_fontLabel;
+        %tmp.160 = getv ? :_label;
+        %tmp.161 = getm $.Toybox.Graphics;
+        %tmp.162 = getv %tmp.161 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.143 %tmp.144(%tmp.155, %tmp.156, %tmp.158, %tmp.160, %tmp.162);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 133 16 ]
+        %tmp.163 = lgetv %dc;
+        %tmp.164 = getv function %tmp.163 :drawText;
+        %tmp.166 = lgetv %marginX.1;
+        %tmp.168 = getv ? :_status;
+        %tmp.169 = 1;
+        %tmp.170 = agetv %tmp.168 %tmp.169;
+        %tmp.171 = getv function %tmp.170 :getWidth;
+        %tmp.172 = invoke %tmp.170 %tmp.171();
+        %tmp.173 = add %tmp.166 %tmp.172;
+        %tmp.174 = 5;
+        %tmp.175 = add %tmp.173 %tmp.174;
+        %tmp.176 = lgetv %dc;
+        %tmp.177 = getv function %tmp.176 :getHeight;
+        %tmp.178 = invoke %tmp.176 %tmp.177();
+        %tmp.179 = lgetv %dc;
+        %tmp.180 = getv function %tmp.179 :getFontHeight;
+        %tmp.182 = getv ? :_fontSubLabel;
+        %tmp.183 = invoke %tmp.179 %tmp.180(%tmp.182);
+        %tmp.184 = sub %tmp.178 %tmp.183;
+        %tmp.186 = getv ? :_fontSubLabel;
+        %tmp.187 = "Status: ";
+        %tmp.189 = getv ? :_status;
+        %tmp.190 = 0;
+        %tmp.191 = agetv %tmp.189 %tmp.190;
+        %tmp.192 = add %tmp.187 %tmp.191;
+        %tmp.193 = getm $.Toybox.Graphics;
+        %tmp.194 = getv %tmp.193 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.163 %tmp.164(%tmp.175, %tmp.184, %tmp.186, %tmp.192, %tmp.194);
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_127_19_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_120_12_if_end:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_25_stop:
+        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_false:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_136_15_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 138 12 ]
+        %tmp.195 = lgetv %dc;
+        %tmp.196 = getv function %tmp.195 :setColor;
+        %tmp.197 = getm $.Toybox.Graphics;
+        %tmp.198 = getv %tmp.197 :COLOR_WHITE;
+        %tmp.199 = getm $.Toybox.Graphics;
+        %tmp.200 = getv %tmp.199 :COLOR_TRANSPARENT;
+        invoke %tmp.195 %tmp.196(%tmp.198, %tmp.200);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 139 12 ]
+        %tmp.201 = getm $.Toybox.Graphics;
+        %tmp.202 = getv %tmp.201 :FONT_XTINY;
+        %tmp.203 = as %tmp.202 FontReference;
+        putv self :_fontLabel %tmp.203;
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 140 12 ]
+        %tmp.204 = lgetv %dc;
+        %tmp.205 = getv function %tmp.204 :drawText;
+        %tmp.207 = lgetv %marginX.1;
+        %tmp.209 = getv ? :_icon;
+        %tmp.210 = getv function %tmp.209 :getWidth;
+        %tmp.211 = invoke %tmp.209 %tmp.210();
+        %tmp.212 = add %tmp.207 %tmp.211;
+        %tmp.213 = 5;
+        %tmp.214 = add %tmp.212 %tmp.213;
+        %tmp.215 = lgetv %dc;
+        %tmp.216 = getv function %tmp.215 :getHeight;
+        %tmp.217 = invoke %tmp.215 %tmp.216();
+        %tmp.218 = 2;
+        %tmp.219 = div %tmp.217 %tmp.218;
+        %tmp.221 = getv ? :_fontLabel;
+        %tmp.223 = getv ? :_label;
+        %tmp.224 = getm $.Toybox.Graphics;
+        %tmp.225 = getv %tmp.224 :TEXT_JUSTIFY_LEFT;
+        %tmp.226 = getm $.Toybox.Graphics;
+        %tmp.227 = getv %tmp.226 :TEXT_JUSTIFY_VCENTER;
+        %tmp.228 = bitor %tmp.225 %tmp.227;
+        invoke %tmp.204 %tmp.205(%tmp.214, %tmp.219, %tmp.221, %tmp.223, %tmp.228);
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_136_15_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_103_8_if_end:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 146 8 ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_8_if_stmt:
+        %tmp.229 = self;
+        %tmp.230 = getv function %tmp.229 :isSelected;
+        %tmp.231 = invoke %tmp.229 %tmp.230();
+        bf %tmp.231 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_8_if_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_8_if_true:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_26_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 147 12 ]
+        %tmp.232 = lgetv %dc;
+        %tmp.233 = getv function %tmp.232 :setColor;
+        %tmp.234 = getm $.Toybox.Graphics;
+        %tmp.235 = getv %tmp.234 :COLOR_BLUE;
+        %tmp.236 = getm $.Toybox.Graphics;
+        %tmp.237 = getv %tmp.236 :COLOR_BLUE;
+        invoke %tmp.232 %tmp.233(%tmp.235, %tmp.237);
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 148 12 ]
+        %tmp.238 = lgetv %dc;
+        %tmp.239 = getv function %tmp.238 :clear;
+        invoke %tmp.238 %tmp.239();
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_26_stop:
+        goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_8_if_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_146_8_if_end:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_98_43_stop:
     }
 }
-[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 131; ]
+[ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 155; ]
 function getDeviceStatus() as Array {
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_start:
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 132 4 ]
-    [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_stop" ]
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_start:
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 156 4 ]
+    [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_stop" ]
     %statusValue.1 = local;
     %tmp.1 = 100;
     %tmp.2 = getm $.Toybox.Math;
@@ -553,15 +627,15 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_start:
     %tmp.18 = div %tmp.4 %tmp.17;
     %tmp.19 = add %tmp.1 %tmp.18;
     lputv %statusValue.1 %tmp.19;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 133 4 ]
-    [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_stop" ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 157 4 ]
+    [ "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_start" "E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_stop" ]
     %statusIcon.2 = local;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_begin:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_begin:
     %tmp.21 = lgetv %statusValue.1;
     %tmp.22 = 34;
     %tmp.23 = lt %tmp.21 %tmp.22;
-    bf %tmp.23 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_false;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_true:
+    bf %tmp.23 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_false;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_true:
     %tmp.24 = getm $.Toybox.WatchUi;
     %tmp.25 = getv function %tmp.24 :loadResource;
     %tmp.26 = getm $;
@@ -570,14 +644,14 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_true:
     %tmp.29 = getv %tmp.28 :heartRed;
     %tmp.30 = invoke %tmp.24 %tmp.25(%tmp.29);
     push %tmp.30;
-    goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_false:
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_begin:
+    goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_false:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_begin:
     %tmp.32 = lgetv %statusValue.1;
     %tmp.33 = 67;
     %tmp.34 = lt %tmp.32 %tmp.33;
-    bf %tmp.34 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_false;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_true:
+    bf %tmp.34 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_false;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_true:
     %tmp.35 = getm $.Toybox.WatchUi;
     %tmp.36 = getv function %tmp.35 :loadResource;
     %tmp.37 = getm $;
@@ -586,8 +660,8 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_true:
     %tmp.40 = getv %tmp.39 :heartYellow;
     %tmp.41 = invoke %tmp.35 %tmp.36(%tmp.40);
     push %tmp.41;
-    goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_end;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_false:
+    goto @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_end;
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_false:
     %tmp.42 = getm $.Toybox.WatchUi;
     %tmp.43 = getv function %tmp.42 :loadResource;
     %tmp.44 = getm $;
@@ -596,13 +670,13 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_false:
     %tmp.47 = getv %tmp.46 :heartGreen;
     %tmp.48 = invoke %tmp.42 %tmp.43(%tmp.47);
     push %tmp.48;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_end:
-    %tmp.49 = phi [%tmp.34 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_begin] [%tmp.41 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_true] [%tmp.48 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_false] [%tmp.49 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_134_21_end];
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_end:
+    %tmp.49 = phi [%tmp.34 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_begin] [%tmp.41 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_true] [%tmp.48 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_false] [%tmp.49 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_158_21_end];
     push %tmp.49;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_end:
-    %tmp.50 = phi [%tmp.23 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_begin] [%tmp.30 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_true] [%tmp.49 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_false] [%tmp.50 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_end];
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_end:
+    %tmp.50 = phi [%tmp.23 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_begin] [%tmp.30 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_true] [%tmp.49 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_false] [%tmp.50 @E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_157_21_end];
     lputv %statusIcon.2 %tmp.50;
-[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 135 4 ]
+[ "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc" 159 4 ]
     %tmp.51 = newa 2;
     %tmp.53 = lgetv %statusValue.1;
     %tmp.54 = dup %tmp.51;
@@ -611,7 +685,7 @@ E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_133_21_end:
     %tmp.58 = dup %tmp.55;
     %tmp.59 = aputv %tmp.58 1 %tmp.57;
     ret %tmp.59;
-E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_131_43_stop:
+E_garmin_dev_faces_MyCustomMenu_source_StatusMenu_mc_155_43_stop:
 }
 [ @file = "E:\garmin\dev\faces\MyCustomMenu\source\StatusMenu.mc"; @line = 7; ]
 <init> {

@@ -11,33 +11,33 @@
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestApp.mc" id="5" lineNum="27" parent="globals/Menu2Sample" pc="268435580" symbol="onStop"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="6" lineNum="7" parent="globals/Rez" pc="268435583" symbol="&lt;init&gt;"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="7" lineNum="15" parent="globals/StatusMenu" pc="268435607" symbol="&lt;init&gt;"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="20" parent="globals/StatusMenu" pc="268435626" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="21" parent="globals/StatusMenu" pc="268435630" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="23" parent="globals/StatusMenu" pc="268435659" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="29" parent="globals/StatusMenu" pc="268435711" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="31" parent="globals/StatusMenu" pc="268435738" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="32" parent="globals/StatusMenu" pc="268435786" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="33" parent="globals/StatusMenu" pc="268435834" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="34" parent="globals/StatusMenu" pc="268435882" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="35" parent="globals/StatusMenu" pc="268435930" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="40" parent="globals/StatusMenu" pc="268435979" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="41" parent="globals/StatusMenu" pc="268435981" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="42" parent="globals/StatusMenu" pc="268436003" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="43" parent="globals/StatusMenu" pc="268436020" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="44" parent="globals/StatusMenu" pc="268436082" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="45" parent="globals/StatusMenu" pc="268436099" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="46" parent="globals/StatusMenu" pc="268436121" symbol="drawTitle"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="131" parent="globals" pc="268436183" symbol="getDeviceStatus"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="132" parent="globals" pc="268436195" symbol="getDeviceStatus"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="133" parent="globals" pc="268436254" symbol="getDeviceStatus"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="135" parent="globals" pc="268436389" symbol="getDeviceStatus"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="11" lineNum="51" parent="globals/StatusMenuDelegate" pc="268436416" symbol="&lt;init&gt;"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="12" lineNum="65" parent="globals/StatusMenuDelegate" pc="268436435" symbol="onBack"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="12" lineNum="66" parent="globals/StatusMenuDelegate" pc="268436437" symbol="onBack"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="13" lineNum="54" parent="globals/StatusMenuDelegate" pc="268436459" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="13" lineNum="55" parent="globals/StatusMenuDelegate" pc="268436461" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="14" lineNum="60" parent="globals/StatusMenuDelegate" pc="268436480" symbol="onSelect"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="14" lineNum="61" parent="globals/StatusMenuDelegate" pc="268436482" symbol="onSelect"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="21" parent="globals/StatusMenu" pc="268435626" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="22" parent="globals/StatusMenu" pc="268435630" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="24" parent="globals/StatusMenu" pc="268435659" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="30" parent="globals/StatusMenu" pc="268435711" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="32" parent="globals/StatusMenu" pc="268435738" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="33" parent="globals/StatusMenu" pc="268435786" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="34" parent="globals/StatusMenu" pc="268435834" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="35" parent="globals/StatusMenu" pc="268435882" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="8" lineNum="36" parent="globals/StatusMenu" pc="268435930" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="41" parent="globals/StatusMenu" pc="268435979" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="42" parent="globals/StatusMenu" pc="268435981" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="43" parent="globals/StatusMenu" pc="268436003" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="44" parent="globals/StatusMenu" pc="268436020" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="45" parent="globals/StatusMenu" pc="268436082" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="46" parent="globals/StatusMenu" pc="268436099" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="9" lineNum="47" parent="globals/StatusMenu" pc="268436121" symbol="drawTitle"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="155" parent="globals" pc="268436183" symbol="getDeviceStatus"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="156" parent="globals" pc="268436195" symbol="getDeviceStatus"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="157" parent="globals" pc="268436254" symbol="getDeviceStatus"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="10" lineNum="159" parent="globals" pc="268436389" symbol="getDeviceStatus"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="11" lineNum="52" parent="globals/StatusMenuDelegate" pc="268436416" symbol="&lt;init&gt;"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="12" lineNum="66" parent="globals/StatusMenuDelegate" pc="268436435" symbol="onBack"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="12" lineNum="67" parent="globals/StatusMenuDelegate" pc="268436437" symbol="onBack"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="13" lineNum="55" parent="globals/StatusMenuDelegate" pc="268436459" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="13" lineNum="56" parent="globals/StatusMenuDelegate" pc="268436461" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="14" lineNum="61" parent="globals/StatusMenuDelegate" pc="268436480" symbol="onSelect"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="14" lineNum="62" parent="globals/StatusMenuDelegate" pc="268436482" symbol="onSelect"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="15" lineNum="13" parent="globals/Menu2TestView" pc="268436499" symbol="&lt;init&gt;"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="17" lineNum="22" parent="globals/Menu2TestView" pc="268436518" symbol="onLayout"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="17" lineNum="23" parent="globals/Menu2TestView" pc="268436520" symbol="onLayout"/>
@@ -45,44 +45,50 @@
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="18" lineNum="17" parent="globals/Menu2TestView" pc="268436564" symbol="initialize"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="20" lineNum="34" parent="globals/Menu2TestView" pc="268436583" symbol="onUpdate"/>
 <entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestView.mc" id="20" lineNum="36" parent="globals/Menu2TestView" pc="268436585" symbol="onUpdate"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="21" lineNum="72" parent="globals/StatusMenuItem" pc="268436606" symbol="&lt;init&gt;"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="21" lineNum="74" parent="globals/StatusMenuItem" pc="268436624" symbol="&lt;init&gt;"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="86" parent="globals/StatusMenuItem" pc="268436672" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="87" parent="globals/StatusMenuItem" pc="268436674" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="88" parent="globals/StatusMenuItem" pc="268436700" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="89" parent="globals/StatusMenuItem" pc="268436710" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="90" parent="globals/StatusMenuItem" pc="268436726" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="91" parent="globals/StatusMenuItem" pc="268436739" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="92" parent="globals/StatusMenuItem" pc="268436752" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="97" parent="globals/StatusMenuItem" pc="268436823" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="99" parent="globals/StatusMenuItem" pc="268436825" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="101" parent="globals/StatusMenuItem" pc="268436847" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="102" parent="globals/StatusMenuItem" pc="268436861" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="103" parent="globals/StatusMenuItem" pc="268436880" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="105" parent="globals/StatusMenuItem" pc="268436893" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="106" parent="globals/StatusMenuItem" pc="268436912" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="108" parent="globals/StatusMenuItem" pc="268436967" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="109" parent="globals/StatusMenuItem" pc="268437027" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="110" parent="globals/StatusMenuItem" pc="268437100" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="114" parent="globals/StatusMenuItem" pc="268437214" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="115" parent="globals/StatusMenuItem" pc="268437227" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="119" parent="globals/StatusMenuItem" pc="268437306" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="120" parent="globals/StatusMenuItem" pc="268437320" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="121" parent="globals/StatusMenuItem" pc="268437342" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="125" parent="globals/StatusMenuItem" pc="268437357" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="126" parent="globals/StatusMenuItem" pc="268437379" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="127" parent="globals/StatusMenuItem" pc="268437396" symbol="draw"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="24" lineNum="13" parent="globals/Menu2TestDelegate" pc="268437459" symbol="&lt;init&gt;"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="22" parent="globals/Menu2TestDelegate" pc="268437478" symbol="onMenu"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="24" parent="globals/Menu2TestDelegate" pc="268437480" symbol="onMenu"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="25" parent="globals/Menu2TestDelegate" pc="268437553" symbol="onMenu"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="26" lineNum="16" parent="globals/Menu2TestDelegate" pc="268437556" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="26" lineNum="17" parent="globals/Menu2TestDelegate" pc="268437558" symbol="initialize"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="23" parent="globals/Rez/Layouts" pc="268437577" symbol="MainLayout"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="24" parent="globals/Rez/Layouts" pc="268437589" symbol="MainLayout"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="26" parent="globals/Rez/Layouts" pc="268437720" symbol="MainLayout"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="28" parent="globals/Rez/Layouts" pc="268437851" symbol="MainLayout"/>
-<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="30" parent="globals/Rez/Layouts" pc="268437982" symbol="MainLayout"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="21" lineNum="73" parent="globals/StatusMenuItem" pc="268436606" symbol="&lt;init&gt;"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="21" lineNum="76" parent="globals/StatusMenuItem" pc="268436624" symbol="&lt;init&gt;"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="87" parent="globals/StatusMenuItem" pc="268436672" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="88" parent="globals/StatusMenuItem" pc="268436674" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="89" parent="globals/StatusMenuItem" pc="268436700" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="90" parent="globals/StatusMenuItem" pc="268436710" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="91" parent="globals/StatusMenuItem" pc="268436726" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="92" parent="globals/StatusMenuItem" pc="268436739" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="22" lineNum="93" parent="globals/StatusMenuItem" pc="268436752" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="98" parent="globals/StatusMenuItem" pc="268436823" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="100" parent="globals/StatusMenuItem" pc="268436827" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="103" parent="globals/StatusMenuItem" pc="268436834" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="105" parent="globals/StatusMenuItem" pc="268436848" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="108" parent="globals/StatusMenuItem" pc="268436867" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="111" parent="globals/StatusMenuItem" pc="268436880" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="112" parent="globals/StatusMenuItem" pc="268436927" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="113" parent="globals/StatusMenuItem" pc="268436971" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="114" parent="globals/StatusMenuItem" pc="268437023" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="115" parent="globals/StatusMenuItem" pc="268437040" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="118" parent="globals/StatusMenuItem" pc="268437078" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="120" parent="globals/StatusMenuItem" pc="268437100" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="122" parent="globals/StatusMenuItem" pc="268437119" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="124" parent="globals/StatusMenuItem" pc="268437176" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="126" parent="globals/StatusMenuItem" pc="268437246" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="129" parent="globals/StatusMenuItem" pc="268437342" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="131" parent="globals/StatusMenuItem" pc="268437399" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="133" parent="globals/StatusMenuItem" pc="268437469" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="138" parent="globals/StatusMenuItem" pc="268437580" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="139" parent="globals/StatusMenuItem" pc="268437602" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="140" parent="globals/StatusMenuItem" pc="268437615" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="146" parent="globals/StatusMenuItem" pc="268437691" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="147" parent="globals/StatusMenuItem" pc="268437705" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\StatusMenu.mc" id="23" lineNum="148" parent="globals/StatusMenuItem" pc="268437727" symbol="draw"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="24" lineNum="13" parent="globals/Menu2TestDelegate" pc="268437743" symbol="&lt;init&gt;"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="22" parent="globals/Menu2TestDelegate" pc="268437762" symbol="onMenu"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="24" parent="globals/Menu2TestDelegate" pc="268437764" symbol="onMenu"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="25" lineNum="25" parent="globals/Menu2TestDelegate" pc="268437837" symbol="onMenu"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="26" lineNum="16" parent="globals/Menu2TestDelegate" pc="268437840" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\source\\MenuTestDelegate.mc" id="26" lineNum="17" parent="globals/Menu2TestDelegate" pc="268437842" symbol="initialize"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="23" parent="globals/Rez/Layouts" pc="268437861" symbol="MainLayout"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="24" parent="globals/Rez/Layouts" pc="268437873" symbol="MainLayout"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="26" parent="globals/Rez/Layouts" pc="268438004" symbol="MainLayout"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="28" parent="globals/Rez/Layouts" pc="268438135" symbol="MainLayout"/>
+<entry filename="E:\\garmin\\dev\\faces\\MyCustomMenu\\bin\\gen\\006-B4315-00\\source\\Rez.mcgen" id="27" lineNum="30" parent="globals/Rez/Layouts" pc="268438266" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -170,11 +176,12 @@
 <entry arg="true" endPc="268436605" name="dc" stackId="1" startPc="268436583"/>
 <entry arg="true" endPc="268436822" name="id" stackId="1" startPc="268436672"/>
 <entry arg="true" endPc="268436822" name="label" stackId="2" startPc="268436672"/>
-<entry arg="true" endPc="268437458" name="dc" stackId="1" startPc="268436823"/>
-<entry arg="true" endPc="268438018" name="dc" stackId="1" startPc="268437577"/>
-<entry endPc="268438018" name="rez_cmp_local_text_9471682161" stackId="2" startPc="268437589"/>
-<entry endPc="268438018" name="rez_cmp_local_text_1867352010" stackId="3" startPc="268437589"/>
-<entry endPc="268438018" name="rez_cmp_local_text_1033890177" stackId="4" startPc="268437589"/>
+<entry arg="true" endPc="268437742" name="dc" stackId="1" startPc="268436823"/>
+<entry endPc="268437741" name="marginX" stackId="2" startPc="268436827"/>
+<entry arg="true" endPc="268438302" name="dc" stackId="1" startPc="268437861"/>
+<entry endPc="268438302" name="rez_cmp_local_text_1252912498" stackId="2" startPc="268437873"/>
+<entry endPc="268438302" name="rez_cmp_local_text_2072123958" stackId="3" startPc="268437873"/>
+<entry endPc="268438302" name="rez_cmp_local_text_7184918315" stackId="4" startPc="268437873"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -227,7 +234,7 @@
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268435978" name="initialize" parent="StatusMenu" startPc="268435626">
-<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> itemHeight The pixel height of menu items rendered by this menu</div><br/> <div class="param"> backgroundColor The color for the menu background</div><br/></div>]]></documentation>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> itemHeight The pixel height of menu items rendered by this menu</div><br/> <div class="param"> backgroundColor The color for the menu background</div><br/> <div class="param"> options A Dictionary with options for the CustomMenu object</div><br/></div>]]></documentation>
 </functionEntry>
 <functionEntry accessMode="public" endPc="268436182" name="drawTitle" parent="StatusMenu" startPc="268435979">
 <param id="dc"/>
@@ -275,19 +282,19 @@
 <functionEntry accessMode="public" endPc="268436822" name="initialize" parent="StatusMenuItem" startPc="268436672">
 <param id="id"/>
 <param id="label"/>
-<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> id The identifier for this item</div><br/> <div class="param"> label Text to display</div><br/> <div class="param"> bitmap Color of the text</div><br/></div>]]></documentation>
+<documentation><![CDATA[<div class="description"> Constructor<br/> <div class="param"> id The identifier for this item</div><br/> <div class="param"> label Text to display</div><br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437458" name="draw" parent="StatusMenuItem" startPc="268436823">
+<functionEntry accessMode="public" endPc="268437742" name="draw" parent="StatusMenuItem" startPc="268436823">
 <param id="dc"/>
 <documentation><![CDATA[<div class="description"> Draw the item's label and bitmap<br/> <div class="param"> dc Device context</div><br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437477" name="&lt;init&gt;" parent="Menu2TestDelegate" startPc="268437459">
+<functionEntry accessMode="public" endPc="268437761" name="&lt;init&gt;" parent="Menu2TestDelegate" startPc="268437743">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437555" name="onMenu" parent="Menu2TestDelegate" startPc="268437478">
+<functionEntry accessMode="public" endPc="268437839" name="onMenu" parent="Menu2TestDelegate" startPc="268437762">
 <documentation><![CDATA[<div class="description"> Handle the menu event<br/> <div class="returns">Returns  true if handled, false otherwise</div><br/></div>]]></documentation>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437576" name="initialize" parent="Menu2TestDelegate" startPc="268437556">
+<functionEntry accessMode="public" endPc="268437860" name="initialize" parent="Menu2TestDelegate" startPc="268437840">
 <documentation><![CDATA[<div class="description"> Constructor<br/></div>]]></documentation>
 </functionEntry>
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
@@ -308,7 +315,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438018" name="MainLayout" parent="Layouts" startPc="268437577">
+<functionEntry accessMode="public" endPc="268438302" name="MainLayout" parent="Layouts" startPc="268437861">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
