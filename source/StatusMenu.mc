@@ -72,9 +72,6 @@ class StatusMenuDelegate extends WatchUi.Menu2InputDelegate {
 //! It draws the item's bitmap and label.
 class StatusMenuItem extends WatchUi.CustomMenuItem {
 
-    //a default icon if the status is unknown
-    var defaultIcon  = WatchUi.loadResource($.Rez.Drawables.heartWhite);
-
     private var _label as String;
     private var _icon as BitmapReference;
     private var _fontLabel as FontReference;
@@ -87,10 +84,10 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
     public function initialize(id as Symbol, label as String) {
         CustomMenuItem.initialize(id, {});
         _label = label;
-        _icon = defaultIcon;
+        _icon = WatchUi.loadResource($.Rez.Drawables.heartWhite);
         _fontLabel = Graphics.FONT_XTINY as FontReference;
         _fontSubLabel = Graphics.FONT_XTINY as FontReference;
-        _status = [null as Number, WatchUi.loadResource($.Rez.Drawables.heartWhite)];
+        _status = [null as Number, null as BitmapReference];
     }
 
     //! Draw the item's label and bitmap
@@ -98,6 +95,7 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
     public function draw(dc as Dc) as Void {
 
         var marginX = 10;
+        var statusValue = "Status: ";
 
         //when item is in focus, display the corresponding Icon and Device Status, otherwise just display the Label
         if (isFocused()) {
@@ -114,24 +112,19 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
             dc.setPenWidth(3);
             dc.drawLine(0, dc.getHeight(), 5, 0);
 
-            //set color back to white to draw labels
+            //set color back to white to draw text labels
             dc.setColor(Graphics.COLOR_WHITE, Graphics.COLOR_TRANSPARENT);
 
-            if(_status[0] == null ) {
-                //draw default white icon if we cannot get a valid status
-                dc.drawBitmap(marginX, _status[1].getHeight()/2, _status[1]);
-                //draw device label
-                dc.drawText(marginX + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
-                //draw a status unknown sublabel
-                dc.drawText(marginX + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, "Status: Unknown", Graphics.TEXT_JUSTIFY_LEFT);
-            } else {
-                //draw the corresponding icon (red, yellow, green)
-                dc.drawBitmap(marginX, _status[1].getHeight()/2, _status[1]);
-                //draw device label
-                dc.drawText(marginX + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
-                //draw the device status value between 1-100
-                dc.drawText(marginX + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, "Status: " + _status[0], Graphics.TEXT_JUSTIFY_LEFT);
-            } 
+            //draw the corresponding icon based on the statusValue (red, yellow, green, or white = unknown)
+            dc.drawBitmap(marginX, _status[1].getHeight()/2, _status[1]);
+
+            //set status label
+            statusValue += _status[0] == null ? "Unknown" : _status[0];
+
+            //draw device label
+            dc.drawText(marginX + _status[1].getWidth() + 5, 2, _fontLabel, _label, Graphics.TEXT_JUSTIFY_LEFT);
+            //draw the device status value between 1-100
+            dc.drawText(marginX + _status[1].getWidth() + 5, dc.getHeight()-dc.getFontHeight(_fontSubLabel), _fontSubLabel, statusValue, Graphics.TEXT_JUSTIFY_LEFT);
             
         } else {
             //if device is not in focus, only draw the label and make it smaller than the focus item
@@ -155,6 +148,7 @@ class StatusMenuItem extends WatchUi.CustomMenuItem {
 public function getDeviceStatus() as Array {
     var statusValue = 100 + Math.rand() / ((0x7FFFFFFF).toFloat() / (0 - 100 + 1) + 1).toNumber();
     var statusIcon = statusValue < 34 ? WatchUi.loadResource($.Rez.Drawables.heartRed) : 
-                     statusValue < 67 ? WatchUi.loadResource($.Rez.Drawables.heartYellow) : WatchUi.loadResource($.Rez.Drawables.heartGreen);
+                     statusValue < 67 ? WatchUi.loadResource($.Rez.Drawables.heartYellow) : 
+                     statusValue < 101 ? WatchUi.loadResource($.Rez.Drawables.heartGreen) : WatchUi.loadResource($.Rez.Drawables.heartWhite);
     return [statusValue, statusIcon];
 }
