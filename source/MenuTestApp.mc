@@ -29,7 +29,7 @@ class Menu2Sample extends Application.AppBase {
 
     //! Return the initial view for the app
     //! @return Array [View, Delegate]
-    public function getInitialView() as Array<Views or InputDelegates>? {
-        return [new $.Menu2TestView(), new $.Menu2TestDelegate()] as Array<Views or InputDelegates>;
+    public function getInitialView() as [Views] or [Views, InputDelegates] {
+        return [new $.Menu2TestView(), new $.Menu2TestDelegate()];
     }
 }
